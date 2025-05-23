@@ -27,4 +27,4 @@ Es decir:
 
 # Autómata diseñado 
 
-![image]
+![Diagrama del autómata](contraseña_automata.png)
