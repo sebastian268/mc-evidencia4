@@ -27,5 +27,6 @@ Es decir:
 
 # Autómata diseñado 
 
-![Automáta de contraseña](https://github.com/user-attachments/assets/09d6ada1-583f-41b2-9172-f1af6c9e2f87)
+![image](https://github.com/user-attachments/assets/6b81b82a-2f18-408c-82e5-2902909e7261)
+
 
