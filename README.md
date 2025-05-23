@@ -27,4 +27,4 @@ Es decir:
 
 # Autómata diseñado 
 
-![image]https://github.com/sebastian268/mc-evidencia4/blob/main/contrasen%CC%83a_automata.png
+![image]
