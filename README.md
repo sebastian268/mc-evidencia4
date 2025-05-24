@@ -796,4 +796,20 @@ Lookahead assertion: (?=. . .), (?!. . .) - JavaScript | MDN. (2024, 25 noviembr
 
 El código funciona mediante un ciclo que le permite al usuario ingresar cadenas para validad si su contraseña cumple o no cumple con los requisitos. Esta implementado en python.
 
+# Complejidad del sistema.
 
+El sistema tiene un nivel de complejidad de **O(n)** debido a que en este, a pesar de la recursión, siempre realiza las iteraciones caracter por caracter, por lo que realiza una función a la vez, es decir, solo procesa un elemento por iteración; Y al no haber ciclos dentro de otro ciclo no se generan múltiples llamadas simultáneas que incrementen la complejidad del sistema. Por lo que se podría decir que el rendimiento del algoritmo depende totalmente de la longitud de la lista que recibe la función y no de la cantidad de operaciones que tiene que realizar al mismo timpo.
+
+# Tipo de autómata 
+
+El tipo de autómata es determinista debido a que no hay estados con múltiples transiciones con el mismo símbolo.
+
+# Conclusión.
+
+Si bien el autómata puede ser útil para estas situaciones sencillas, cuando la situación se torna más complicada deja de ser viable debido a su falta de memoria, como por ejemplo, en este caso no es capaz de verificar la longitud de la contraseña. Por lo que hay situaciones en las que es importante contar con una memoria capaz de guardar los sucesos.
+
+# Referencias 
+
+Lookahead assertion: (?=. . .), (?!. . .) - JavaScript | MDN. (2024, 25 noviembre). MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Lookahead_assertion
+
+Kantor, I. (s. f.). Lookahead y lookbehind (revisar delante/detrás). https://es.javascript.info/regexp-lookahead-lookbehind
