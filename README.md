@@ -27,7 +27,8 @@ Es decir:
 
 # Autómata diseñado 
 
-![image](https://github.com/user-attachments/assets/6b81b82a-2f18-408c-82e5-2902909e7261)
+![image](https://github.com/user-attachments/assets/31b6722e-2d42-4a2b-9990-af4d6a375fbf)
+
 
 # Implementación del autómata en prolog
 
