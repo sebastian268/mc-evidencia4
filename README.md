@@ -775,5 +775,25 @@ Posteriormente se definen cuales son los estados de aceptación mediante la nome
 ![image](https://github.com/user-attachments/assets/0a197f97-d378-4632-8183-110677ff3fc0)
 
 
+# Expresión regular 
+
+Como hemos visto en clase, todo automáta tiene su forma de representarse mediante una expresión regular, la de este automata es la siguiente: 
+
+^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]+
+
+pero... ¿cómo funciona esta expresión regular? bueno, esta expresión funciona con ayuda de lo que se conoce como lookahead, el cual se encarga de confirmar sí dentro de una cadena hay existencia de lo que esta "buscando" por lo que para dar verdadero, en esta debe existir al menos una mayúscula, una minúscula y un número.
+
+Además la parte de "[A-Za-z\d]" limita a que solo puedan existir esos cáracteres, evitando así el uso de cáracteres no previstos.
+
+# Fuente sobre los lookahead
+
+Lookahead assertion: (?=. . .), (?!. . .) - JavaScript | MDN. (2024, 25 noviembre). MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Lookahead_assertion
+
+
+# Implemtenación del regex 
+
+![Captura de Pantalla 2025-05-23 a la(s) 11 24 00 p m](https://github.com/user-attachments/assets/6c14cdb4-05b7-4c1e-bb0f-13f9c374c34e)
+
+El código funciona mediante un ciclo que le permite al usuario ingresar cadenas para validad si su contraseña cumple o no cumple con los requisitos. Esta implementado en python.
 
 
