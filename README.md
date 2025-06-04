@@ -29,6 +29,11 @@ Es decir:
 
 ![image](https://github.com/user-attachments/assets/31b6722e-2d42-4a2b-9990-af4d6a375fbf)
 
+# Explicación del autómata
+
+En el diagrama se puede ver cual es el estado inicial que se encuentra marcado por una flecha en cual es el estado "A"
+Pero ¿como se que es un estado en el diagrama? un estado en el diagrama se encuentra representado por un circulo, y cada estado tiene su nombre, en este caso, cada estado tiene por nombre una letra diferente, para poder identificarlos de mejor manera; además el estado de aceptación, es decir, el que da por válido la cadena es el que se encuentra con un doble circulo.
+Ahora bien ¿que significan las flechas? las flechas significan los caminos que se puede tomar de un estado a otro recibiendo algún caracter en especifico, como el autómata verifica si cuenta con los tres requisitos, si recibe algún tipo de carácter que ya había recibido previamente, la flecha sale y termina en el mismo estado, lo que se conoce como loop.
 
 # Implementación del autómata en prolog
 
