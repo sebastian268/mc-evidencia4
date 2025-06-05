@@ -779,6 +779,7 @@ Posteriormente se definen cuales son los estados de aceptación mediante la nome
 
 ![image](https://github.com/user-attachments/assets/0a197f97-d378-4632-8183-110677ff3fc0)
 
+![Captura de Pantalla 2025-06-04 a la(s) 8 08 29 p m](https://github.com/user-attachments/assets/bf4e0ab8-54d3-4fec-87f4-c5ee1b3011c0)
 
 # Expresión regular 
 
