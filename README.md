@@ -816,7 +816,10 @@ Posteriormente se definen cuales son los estados de aceptación mediante la nome
 
 Como hemos visto en clase, todo automáta tiene su forma de representarse mediante una expresión regular, la de este automata es la siguiente: 
 
-r'^(?=.**[a-z])(?=.**[A-Z])(?=.*\d)[A-Za-z\d]+' 
+```regex
+r'^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]+
+```
+
 
 pero... ¿cómo funciona esta expresión regular? bueno, esta expresión funciona con ayuda de lo que se conoce como lookahead, el cual se encarga de confirmar sí dentro de una cadena hay existencia de lo que esta "buscando" por lo que para dar verdadero, en esta debe existir al menos una mayúscula, una minúscula y un número.
 
