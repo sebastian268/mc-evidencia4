@@ -834,7 +834,7 @@ Lookahead assertion: (?=. . .), (?!. . .) - JavaScript | MDN. (2024, 25 noviembr
 
 ![Captura de Pantalla 2025-05-23 a la(s) 11 24 00 p m](https://github.com/user-attachments/assets/6c14cdb4-05b7-4c1e-bb0f-13f9c374c34e)
 
-El código funciona mediante un ciclo que le permite al usuario ingresar cadenas para validad si su contraseña cumple o no cumple con los requisitos. Esta implementado en python.
+El código funciona mediante un ciclo que le permite al usuario ingresar cadenas para validad si su contraseña cumple o no cumple con los requisitos. Esta implementado en python. Esto le permite al usuario tener una serie de pruebas automatizadas ya que el ciclo no se detiene hasta que el usuario escriba salir.
 
 # Complejidad del sistema.
 
