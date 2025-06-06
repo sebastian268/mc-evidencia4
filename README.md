@@ -809,6 +809,9 @@ Posteriormente se definen cuales son los estados de aceptación mediante la nome
 
 ![Captura de Pantalla 2025-06-04 a la(s) 8 08 29 p m](https://github.com/user-attachments/assets/bf4e0ab8-54d3-4fec-87f4-c5ee1b3011c0)
 
+![Captura de Pantalla 2025-06-05 a la(s) 6 05 13 p m](https://github.com/user-attachments/assets/2a797c00-34ac-4954-8d48-311ec7535594)
+
+
 # Expresión regular 
 
 Como hemos visto en clase, todo automáta tiene su forma de representarse mediante una expresión regular, la de este automata es la siguiente: 
